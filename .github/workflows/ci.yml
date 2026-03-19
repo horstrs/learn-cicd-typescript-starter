@@ -19,7 +19,10 @@ jobs:
           node-version: 22
 
       - name: Install dependencies
-        run: npm i, npm ci
+        run: npm i
+
+      - name: Install dependencies 2
+        run: npm ci
 
       - name: Run tests
         run: npm run test
